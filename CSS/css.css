@@ -1,0 +1,84 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*===================================================================
+                box part start
+=====================================================================*/
+.box_part{
+    margin-top: 50px;
+    width: 1000px;
+    height: 600px;
+    background-color: #4d2820;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box_1{
+    width: 200px;
+    height: 140px;
+    background-color: red;
+    align-self: self-start;
+}
+
+.box_2{
+    width: 200px;
+    height: 140px;
+    background-color: rgb(28, 248, 94);
+    align-self: center;
+}
+
+.box_3{
+    width: 200px;
+    height: 140px;
+    background-color: rgb(87, 11, 209);
+    align-self: self-end;
+}
+/*===================================================================
+                box part end
+=====================================================================*/
+
+/*===================================================================
+                potaka part start
+=====================================================================*/
+.main{
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+.one{
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+.two {
+    width: 10px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.four {
+    width: 100px;
+    height: 52px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 5px 5px 0 0;
+}
+/*===================================================================
+                potaka part end
+=====================================================================*/
